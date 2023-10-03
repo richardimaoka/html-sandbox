@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .a {
+        position: absolute;
+        background-color: antiquewhite;
+        width: 100px;
+        height: 200px;
+        z-index: 1;
+      }
+      .b {
+        position: absolute;
+        background-color: aqua;
+        top: 50px;
+        left: 50px;
+        width: 100px;
+        height: 200px;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="a">a</div>
+      <div class="b">b</div>
+    </div>
+  </body>
+</html>
