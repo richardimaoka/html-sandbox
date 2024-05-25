@@ -5,28 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
       .a {
-        position: absolute;
         background-color: antiquewhite;
         width: 100px;
-        height: 200px;
-        z-index: 1;
+        height: 2200px;
       }
       .b {
-        position: absolute;
         background-color: aqua;
-        top: 50px;
-        left: 50px;
-        width: 100px;
         height: 200px;
-        z-index: -1;
       }
     </style>
   </head>
   <body>
     <div>
+      <a href="#c">to c</a>
       <div class="a">a</div>
       <div class="b">b</div>
+      <div id="c">c</div>
     </div>
   </body>
 </html>
